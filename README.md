@@ -1,6 +1,5 @@
 #REACTJS_metronome
 
-# loading sounds [Webpack, JS]
 initializing state in React
 
 #using arrow functions to bind class methods
