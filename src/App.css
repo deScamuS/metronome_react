@@ -1,31 +1,29 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.container {
+.App {
   text-align: center;
+  font-family: "Righteous", cursive;
   width: 100%;
   height: auto;
-  padding: 30px;
-  cursor: -webkit-zoom-grabbing;
+  margin: 0 auto;
+  padding: 99px;
+  color: rgb(31, 121, 173);
+  font-size: 28px;
+  background-image: linear-gradient(to top, #0ba360 55%, #3cba92 100%);
+  cursor: crosshair;
 }
 
-.bpm-slider {
+.bpm-slider input {
   width: 100%;
-  margin: 10px;
+  height: 500px;
+  margin: 0;
+  padding: 66px;
+  cursor: crosshair;
 }
 
-button {
-  background: #c94d46;
-  padding: 10px;
-  border: 1px solid #832420;
-  border-radius: 2px;
+.App button {
+  background: white;
+  padding: 2px;
+  border-radius: 4px;
   width: 100px;
-  color: #fff;
+  color: #c94d46;
   font-size: 18px;
-}
-
-button:hover {
-  color: #000;
 }
