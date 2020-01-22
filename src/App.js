@@ -93,7 +93,13 @@ export default class App extends Component {
             onChange={this.handleBpmChange}
           />
         </div>
-        <Button variant="outlined" color="secondary" onClick={this.startStop}>
+        <Button
+          className="btn"
+          variant="text"
+          color="secondary"
+          onClick={this.startStop}
+          style={{ bottom: "100px" }}
+        >
           {playing ? "Stop" : "Start"}
         </Button>
       </div>

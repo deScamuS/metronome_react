@@ -2,8 +2,6 @@
   text-align: center;
   font-family: "Righteous", cursive;
   width: 100%;
-  position: fixed;
-  overflow: hidden;
   height: auto;
   margin: 0 auto;
   padding: 25px;
@@ -21,11 +19,12 @@
   cursor: crosshair;
 }
 
+
 .App button {
   background: white;
   padding: 2px;
   width: 100px;
-  color: #c94d46;
+  color: rgb(31, 121, 173);
   font-size: 18px;
 }
 
