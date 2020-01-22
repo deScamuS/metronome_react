@@ -1,7 +1,7 @@
 {
   "name": "metronome",
   "version": "0.1.0",
-  "homepage": "https://deScamuS.github.io/metronome_react",
+  "homepage": "https://deScamuS.github.io/metronome",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.7.0",

@@ -79,10 +79,12 @@ export default class App extends Component {
     const { playing, bpm } = this.state;
 
     return (
-     
       <div className="App">
         <div className="bpm-slider">
-          <div><h2>{bpm} BPM</h2></div>
+          <div>
+            <h2>{bpm} BPM</h2>
+          </div>
+
           <input
             type="range"
             min="60"
@@ -94,8 +96,7 @@ export default class App extends Component {
         <Button variant="outlined" color="secondary" onClick={this.startStop}>
           {playing ? "Stop" : "Start"}
         </Button>
-          </div>
-         
+      </div>
     );
   }
 }
